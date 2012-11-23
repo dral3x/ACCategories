@@ -4,4 +4,4 @@
 
 # Ignore directories
 */Build/**/*
-*/xcuserdata/**/*
+**/xcuserdata/**/*
