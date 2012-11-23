@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FACAA1E416601DD2000B47F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACAA1E316601DD2000B47F2 /* UIKit.framework */; };
+		FACAA1E616601DD2000B47F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACAA1E516601DD2000B47F2 /* Foundation.framework */; };
+		FACAA1E816601DD2000B47F2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACAA1E716601DD2000B47F2 /* CoreGraphics.framework */; };
+		FACAA1EE16601DD2000B47F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FACAA1EC16601DD2000B47F2 /* InfoPlist.strings */; };
+		FACAA1F016601DD2000B47F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FACAA1EF16601DD2000B47F2 /* main.m */; };
+		FACAA1F416601DD2000B47F2 /* ACDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FACAA1F316601DD2000B47F2 /* ACDemoAppDelegate.m */; };
+		FACAA1F616601DD2000B47F2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FACAA1F516601DD2000B47F2 /* Default.png */; };
+		FACAA1F816601DD2000B47F2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FACAA1F716601DD2000B47F2 /* Default@2x.png */; };
+		FACAA1FA16601DD2000B47F2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FACAA1F916601DD2000B47F2 /* Default-568h@2x.png */; };
+		FACAA1FD16601DD2000B47F2 /* ACDemoMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FACAA1FC16601DD2000B47F2 /* ACDemoMasterViewController.m */; };
+		FACAA20016601DD2000B47F2 /* ACDemoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FACAA1FF16601DD2000B47F2 /* ACDemoDetailViewController.m */; };
+		FACAA20316601DD2000B47F2 /* ACDemoMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FACAA20116601DD2000B47F2 /* ACDemoMasterViewController.xib */; };
+		FACAA20616601DD2000B47F2 /* ACDemoDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FACAA20416601DD2000B47F2 /* ACDemoDetailViewController.xib */; };
+		FACAA20E16601DD2000B47F2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACAA20D16601DD2000B47F2 /* SenTestingKit.framework */; };
+		FACAA20F16601DD2000B47F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACAA1E316601DD2000B47F2 /* UIKit.framework */; };
+		FACAA21016601DD2000B47F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACAA1E516601DD2000B47F2 /* Foundation.framework */; };
+		FACAA21816601DD2000B47F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FACAA21616601DD2000B47F2 /* InfoPlist.strings */; };
+		FACAA21B16601DD2000B47F2 /* ACCategoriesDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FACAA21A16601DD2000B47F2 /* ACCategoriesDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FACAA21116601DD2000B47F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FACAA1D616601DD2000B47F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FACAA1DE16601DD2000B47F2;
+			remoteInfo = ACCategoriesDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FACAA1DF16601DD2000B47F2 /* ACCategoriesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACCategoriesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACAA1E316601DD2000B47F2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FACAA1E516601DD2000B47F2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FACAA1E716601DD2000B47F2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FACAA1EB16601DD2000B47F2 /* ACCategoriesDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ACCategoriesDemo-Info.plist"; sourceTree = "<group>"; };
+		FACAA1ED16601DD2000B47F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FACAA1EF16601DD2000B47F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FACAA1F116601DD2000B47F2 /* ACCategoriesDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ACCategoriesDemo-Prefix.pch"; sourceTree = "<group>"; };
+		FACAA1F216601DD2000B47F2 /* ACDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACDemoAppDelegate.h; sourceTree = "<group>"; };
+		FACAA1F316601DD2000B47F2 /* ACDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACDemoAppDelegate.m; sourceTree = "<group>"; };
+		FACAA1F516601DD2000B47F2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FACAA1F716601DD2000B47F2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FACAA1F916601DD2000B47F2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FACAA1FB16601DD2000B47F2 /* ACDemoMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACDemoMasterViewController.h; sourceTree = "<group>"; };
+		FACAA1FC16601DD2000B47F2 /* ACDemoMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACDemoMasterViewController.m; sourceTree = "<group>"; };
+		FACAA1FE16601DD2000B47F2 /* ACDemoDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACDemoDetailViewController.h; sourceTree = "<group>"; };
+		FACAA1FF16601DD2000B47F2 /* ACDemoDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACDemoDetailViewController.m; sourceTree = "<group>"; };
+		FACAA20216601DD2000B47F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ACDemoMasterViewController.xib; sourceTree = "<group>"; };
+		FACAA20516601DD2000B47F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ACDemoDetailViewController.xib; sourceTree = "<group>"; };
+		FACAA20C16601DD2000B47F2 /* ACCategoriesDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACCategoriesDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACAA20D16601DD2000B47F2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		FACAA21516601DD2000B47F2 /* ACCategoriesDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ACCategoriesDemoTests-Info.plist"; sourceTree = "<group>"; };
+		FACAA21716601DD2000B47F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FACAA21916601DD2000B47F2 /* ACCategoriesDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACCategoriesDemoTests.h; sourceTree = "<group>"; };
+		FACAA21A16601DD2000B47F2 /* ACCategoriesDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACCategoriesDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FACAA1DC16601DD2000B47F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACAA1E416601DD2000B47F2 /* UIKit.framework in Frameworks */,
+				FACAA1E616601DD2000B47F2 /* Foundation.framework in Frameworks */,
+				FACAA1E816601DD2000B47F2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACAA20816601DD2000B47F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACAA20E16601DD2000B47F2 /* SenTestingKit.framework in Frameworks */,
+				FACAA20F16601DD2000B47F2 /* UIKit.framework in Frameworks */,
+				FACAA21016601DD2000B47F2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FACAA1D416601DD2000B47F2 = {
+			isa = PBXGroup;
+			children = (
+				FACAA1E916601DD2000B47F2 /* ACCategoriesDemo */,
+				FACAA21316601DD2000B47F2 /* ACCategoriesDemoTests */,
+				FACAA1E216601DD2000B47F2 /* Frameworks */,
+				FACAA1E016601DD2000B47F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FACAA1E016601DD2000B47F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FACAA1DF16601DD2000B47F2 /* ACCategoriesDemo.app */,
+				FACAA20C16601DD2000B47F2 /* ACCategoriesDemoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FACAA1E216601DD2000B47F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FACAA1E316601DD2000B47F2 /* UIKit.framework */,
+				FACAA1E516601DD2000B47F2 /* Foundation.framework */,
+				FACAA1E716601DD2000B47F2 /* CoreGraphics.framework */,
+				FACAA20D16601DD2000B47F2 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FACAA1E916601DD2000B47F2 /* ACCategoriesDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FACAA1F216601DD2000B47F2 /* ACDemoAppDelegate.h */,
+				FACAA1F316601DD2000B47F2 /* ACDemoAppDelegate.m */,
+				FACAA1FB16601DD2000B47F2 /* ACDemoMasterViewController.h */,
+				FACAA1FC16601DD2000B47F2 /* ACDemoMasterViewController.m */,
+				FACAA1FE16601DD2000B47F2 /* ACDemoDetailViewController.h */,
+				FACAA1FF16601DD2000B47F2 /* ACDemoDetailViewController.m */,
+				FACAA20116601DD2000B47F2 /* ACDemoMasterViewController.xib */,
+				FACAA20416601DD2000B47F2 /* ACDemoDetailViewController.xib */,
+				FACAA1EA16601DD2000B47F2 /* Supporting Files */,
+			);
+			path = ACCategoriesDemo;
+			sourceTree = "<group>";
+		};
+		FACAA1EA16601DD2000B47F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FACAA1EB16601DD2000B47F2 /* ACCategoriesDemo-Info.plist */,
+				FACAA1EC16601DD2000B47F2 /* InfoPlist.strings */,
+				FACAA1EF16601DD2000B47F2 /* main.m */,
+				FACAA1F116601DD2000B47F2 /* ACCategoriesDemo-Prefix.pch */,
+				FACAA1F516601DD2000B47F2 /* Default.png */,
+				FACAA1F716601DD2000B47F2 /* Default@2x.png */,
+				FACAA1F916601DD2000B47F2 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FACAA21316601DD2000B47F2 /* ACCategoriesDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FACAA21916601DD2000B47F2 /* ACCategoriesDemoTests.h */,
+				FACAA21A16601DD2000B47F2 /* ACCategoriesDemoTests.m */,
+				FACAA21416601DD2000B47F2 /* Supporting Files */,
+			);
+			path = ACCategoriesDemoTests;
+			sourceTree = "<group>";
+		};
+		FACAA21416601DD2000B47F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FACAA21516601DD2000B47F2 /* ACCategoriesDemoTests-Info.plist */,
+				FACAA21616601DD2000B47F2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FACAA1DE16601DD2000B47F2 /* ACCategoriesDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACAA21E16601DD2000B47F2 /* Build configuration list for PBXNativeTarget "ACCategoriesDemo" */;
+			buildPhases = (
+				FACAA1DB16601DD2000B47F2 /* Sources */,
+				FACAA1DC16601DD2000B47F2 /* Frameworks */,
+				FACAA1DD16601DD2000B47F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ACCategoriesDemo;
+			productName = ACCategoriesDemo;
+			productReference = FACAA1DF16601DD2000B47F2 /* ACCategoriesDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FACAA20B16601DD2000B47F2 /* ACCategoriesDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACAA22116601DD2000B47F2 /* Build configuration list for PBXNativeTarget "ACCategoriesDemoTests" */;
+			buildPhases = (
+				FACAA20716601DD2000B47F2 /* Sources */,
+				FACAA20816601DD2000B47F2 /* Frameworks */,
+				FACAA20916601DD2000B47F2 /* Resources */,
+				FACAA20A16601DD2000B47F2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FACAA21216601DD2000B47F2 /* PBXTargetDependency */,
+			);
+			name = ACCategoriesDemoTests;
+			productName = ACCategoriesDemoTests;
+			productReference = FACAA20C16601DD2000B47F2 /* ACCategoriesDemoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FACAA1D616601DD2000B47F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ACDemo;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Alessandro Calzavara";
+			};
+			buildConfigurationList = FACAA1D916601DD2000B47F2 /* Build configuration list for PBXProject "ACCategoriesDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FACAA1D416601DD2000B47F2;
+			productRefGroup = FACAA1E016601DD2000B47F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FACAA1DE16601DD2000B47F2 /* ACCategoriesDemo */,
+				FACAA20B16601DD2000B47F2 /* ACCategoriesDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FACAA1DD16601DD2000B47F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACAA1EE16601DD2000B47F2 /* InfoPlist.strings in Resources */,
+				FACAA1F616601DD2000B47F2 /* Default.png in Resources */,
+				FACAA1F816601DD2000B47F2 /* Default@2x.png in Resources */,
+				FACAA1FA16601DD2000B47F2 /* Default-568h@2x.png in Resources */,
+				FACAA20316601DD2000B47F2 /* ACDemoMasterViewController.xib in Resources */,
+				FACAA20616601DD2000B47F2 /* ACDemoDetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACAA20916601DD2000B47F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACAA21816601DD2000B47F2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FACAA20A16601DD2000B47F2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FACAA1DB16601DD2000B47F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACAA1F016601DD2000B47F2 /* main.m in Sources */,
+				FACAA1F416601DD2000B47F2 /* ACDemoAppDelegate.m in Sources */,
+				FACAA1FD16601DD2000B47F2 /* ACDemoMasterViewController.m in Sources */,
+				FACAA20016601DD2000B47F2 /* ACDemoDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACAA20716601DD2000B47F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACAA21B16601DD2000B47F2 /* ACCategoriesDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FACAA21216601DD2000B47F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FACAA1DE16601DD2000B47F2 /* ACCategoriesDemo */;
+			targetProxy = FACAA21116601DD2000B47F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FACAA1EC16601DD2000B47F2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FACAA1ED16601DD2000B47F2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FACAA20116601DD2000B47F2 /* ACDemoMasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FACAA20216601DD2000B47F2 /* en */,
+			);
+			name = ACDemoMasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		FACAA20416601DD2000B47F2 /* ACDemoDetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FACAA20516601DD2000B47F2 /* en */,
+			);
+			name = ACDemoDetailViewController.xib;
+			sourceTree = "<group>";
+		};
+		FACAA21616601DD2000B47F2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FACAA21716601DD2000B47F2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FACAA21C16601DD2000B47F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FACAA21D16601DD2000B47F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FACAA21F16601DD2000B47F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ACCategoriesDemo/ACCategoriesDemo-Prefix.pch";
+				INFOPLIST_FILE = "ACCategoriesDemo/ACCategoriesDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FACAA22016601DD2000B47F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ACCategoriesDemo/ACCategoriesDemo-Prefix.pch";
+				INFOPLIST_FILE = "ACCategoriesDemo/ACCategoriesDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FACAA22216601DD2000B47F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ACCategoriesDemo.app/ACCategoriesDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ACCategoriesDemo/ACCategoriesDemo-Prefix.pch";
+				INFOPLIST_FILE = "ACCategoriesDemoTests/ACCategoriesDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FACAA22316601DD2000B47F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ACCategoriesDemo.app/ACCategoriesDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ACCategoriesDemo/ACCategoriesDemo-Prefix.pch";
+				INFOPLIST_FILE = "ACCategoriesDemoTests/ACCategoriesDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FACAA1D916601DD2000B47F2 /* Build configuration list for PBXProject "ACCategoriesDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACAA21C16601DD2000B47F2 /* Debug */,
+				FACAA21D16601DD2000B47F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FACAA21E16601DD2000B47F2 /* Build configuration list for PBXNativeTarget "ACCategoriesDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACAA21F16601DD2000B47F2 /* Debug */,
+				FACAA22016601DD2000B47F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FACAA22116601DD2000B47F2 /* Build configuration list for PBXNativeTarget "ACCategoriesDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACAA22216601DD2000B47F2 /* Debug */,
+				FACAA22316601DD2000B47F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FACAA1D616601DD2000B47F2 /* Project object */;
+}
