@@ -17,7 +17,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
 
-    ACDemoMasterViewController *masterViewController = [[ACDemoMasterViewController alloc] initWithNibName:@"ACDemoMasterViewController" bundle:nil];
+    ACDemoMasterViewController *masterViewController = [[ACDemoMasterViewController alloc] initWithNibName:@"ACDemoMasterView" bundle:nil];
     self.navigationController = [[UINavigationController alloc] initWithRootViewController:masterViewController];
     self.window.rootViewController = self.navigationController;
     [self.window makeKeyAndVisible];

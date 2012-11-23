@@ -7,6 +7,7 @@
 //
 
 #import "ACDemoResizableImageViewController.h"
+#import "UIImage+ACResizableImage.h"
 
 @interface ACDemoResizableImageViewController ()
 
@@ -27,6 +28,18 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+
+    UIImage * original = [UIImage imageNamed:@"resizable_image"];
+    UIEdgeInsets edgeInsets = UIEdgeInsetsMake(22, 17, 22, 17);
+    
+    UIImage * resizableImage = [original acResizableImageWithCapInsets:edgeInsets];
+    
+    self.imageViewOriginal.image = original;
+    
+    self.imageView50x50.image   = resizableImage;
+    self.imageView150x50.image  = resizableImage;
+    self.imageView50x150.image  = resizableImage;
+    self.imageView150x150.image = resizableImage;
 }
 
 - (void)didReceiveMemoryWarning

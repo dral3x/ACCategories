@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@class ACDemoDetailViewController;
-
 @interface ACDemoMasterViewController : UITableViewController
-
-@property (strong, nonatomic) ACDemoDetailViewController *detailViewController;
 
 @end

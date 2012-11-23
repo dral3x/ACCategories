@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA4D588A16601FC400E2A79D /* ACDemoResizableImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4D588816601FC400E2A79D /* ACDemoResizableImageViewController.m */; };
+		FA4D588B16601FC400E2A79D /* ACDemoResizableImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA4D588916601FC400E2A79D /* ACDemoResizableImageViewController.xib */; };
+		FA4D588E1660216300E2A79D /* resizable_image.png in Resources */ = {isa = PBXBuildFile; fileRef = FA4D588C1660216300E2A79D /* resizable_image.png */; };
+		FA4D588F1660216300E2A79D /* resizable_image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA4D588D1660216300E2A79D /* resizable_image@2x.png */; };
 		FACAA1E416601DD2000B47F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACAA1E316601DD2000B47F2 /* UIKit.framework */; };
 		FACAA1E616601DD2000B47F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACAA1E516601DD2000B47F2 /* Foundation.framework */; };
 		FACAA1E816601DD2000B47F2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACAA1E716601DD2000B47F2 /* CoreGraphics.framework */; };
@@ -17,14 +21,13 @@
 		FACAA1F816601DD2000B47F2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FACAA1F716601DD2000B47F2 /* Default@2x.png */; };
 		FACAA1FA16601DD2000B47F2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FACAA1F916601DD2000B47F2 /* Default-568h@2x.png */; };
 		FACAA1FD16601DD2000B47F2 /* ACDemoMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FACAA1FC16601DD2000B47F2 /* ACDemoMasterViewController.m */; };
-		FACAA20016601DD2000B47F2 /* ACDemoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FACAA1FF16601DD2000B47F2 /* ACDemoDetailViewController.m */; };
-		FACAA20316601DD2000B47F2 /* ACDemoMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FACAA20116601DD2000B47F2 /* ACDemoMasterViewController.xib */; };
-		FACAA20616601DD2000B47F2 /* ACDemoDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FACAA20416601DD2000B47F2 /* ACDemoDetailViewController.xib */; };
+		FACAA20316601DD2000B47F2 /* ACDemoMasterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FACAA20116601DD2000B47F2 /* ACDemoMasterView.xib */; };
 		FACAA20E16601DD2000B47F2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACAA20D16601DD2000B47F2 /* SenTestingKit.framework */; };
 		FACAA20F16601DD2000B47F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACAA1E316601DD2000B47F2 /* UIKit.framework */; };
 		FACAA21016601DD2000B47F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACAA1E516601DD2000B47F2 /* Foundation.framework */; };
 		FACAA21816601DD2000B47F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FACAA21616601DD2000B47F2 /* InfoPlist.strings */; };
 		FACAA21B16601DD2000B47F2 /* ACCategoriesDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FACAA21A16601DD2000B47F2 /* ACCategoriesDemoTests.m */; };
+		FACAA22716601DFF000B47F2 /* UIImage+ACResizableImage.m in Sources */ = {isa = PBXBuildFile; fileRef = FACAA22616601DFF000B47F2 /* UIImage+ACResizableImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA4D588716601FC400E2A79D /* ACDemoResizableImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACDemoResizableImageViewController.h; sourceTree = "<group>"; };
+		FA4D588816601FC400E2A79D /* ACDemoResizableImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACDemoResizableImageViewController.m; sourceTree = "<group>"; };
+		FA4D588916601FC400E2A79D /* ACDemoResizableImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ACDemoResizableImageViewController.xib; sourceTree = "<group>"; };
+		FA4D588C1660216300E2A79D /* resizable_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resizable_image.png; sourceTree = "<group>"; };
+		FA4D588D1660216300E2A79D /* resizable_image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "resizable_image@2x.png"; sourceTree = "<group>"; };
 		FACAA1DF16601DD2000B47F2 /* ACCategoriesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACCategoriesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FACAA1E316601DD2000B47F2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FACAA1E516601DD2000B47F2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -53,16 +61,15 @@
 		FACAA1F916601DD2000B47F2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		FACAA1FB16601DD2000B47F2 /* ACDemoMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACDemoMasterViewController.h; sourceTree = "<group>"; };
 		FACAA1FC16601DD2000B47F2 /* ACDemoMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACDemoMasterViewController.m; sourceTree = "<group>"; };
-		FACAA1FE16601DD2000B47F2 /* ACDemoDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACDemoDetailViewController.h; sourceTree = "<group>"; };
-		FACAA1FF16601DD2000B47F2 /* ACDemoDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACDemoDetailViewController.m; sourceTree = "<group>"; };
-		FACAA20216601DD2000B47F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ACDemoMasterViewController.xib; sourceTree = "<group>"; };
-		FACAA20516601DD2000B47F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ACDemoDetailViewController.xib; sourceTree = "<group>"; };
+		FACAA20216601DD2000B47F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ACDemoMasterView.xib; sourceTree = "<group>"; };
 		FACAA20C16601DD2000B47F2 /* ACCategoriesDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACCategoriesDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FACAA20D16601DD2000B47F2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		FACAA21516601DD2000B47F2 /* ACCategoriesDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ACCategoriesDemoTests-Info.plist"; sourceTree = "<group>"; };
 		FACAA21716601DD2000B47F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FACAA21916601DD2000B47F2 /* ACCategoriesDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACCategoriesDemoTests.h; sourceTree = "<group>"; };
 		FACAA21A16601DD2000B47F2 /* ACCategoriesDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACCategoriesDemoTests.m; sourceTree = "<group>"; };
+		FACAA22516601DFF000B47F2 /* UIImage+ACResizableImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+ACResizableImage.h"; path = "../UIImage/UIImage+ACResizableImage.h"; sourceTree = "<group>"; };
+		FACAA22616601DFF000B47F2 /* UIImage+ACResizableImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ACResizableImage.m"; path = "../UIImage/UIImage+ACResizableImage.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,9 +96,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA4D58901660216700E2A79D /* UIImage+ACResizableImage */ = {
+			isa = PBXGroup;
+			children = (
+				FA4D588716601FC400E2A79D /* ACDemoResizableImageViewController.h */,
+				FA4D588816601FC400E2A79D /* ACDemoResizableImageViewController.m */,
+				FA4D588916601FC400E2A79D /* ACDemoResizableImageViewController.xib */,
+				FA4D588C1660216300E2A79D /* resizable_image.png */,
+				FA4D588D1660216300E2A79D /* resizable_image@2x.png */,
+			);
+			name = "UIImage+ACResizableImage";
+			sourceTree = "<group>";
+		};
 		FACAA1D416601DD2000B47F2 = {
 			isa = PBXGroup;
 			children = (
+				FACAA22416601DEA000B47F2 /* ACCategories */,
 				FACAA1E916601DD2000B47F2 /* ACCategoriesDemo */,
 				FACAA21316601DD2000B47F2 /* ACCategoriesDemoTests */,
 				FACAA1E216601DD2000B47F2 /* Frameworks */,
@@ -126,10 +146,8 @@
 				FACAA1F316601DD2000B47F2 /* ACDemoAppDelegate.m */,
 				FACAA1FB16601DD2000B47F2 /* ACDemoMasterViewController.h */,
 				FACAA1FC16601DD2000B47F2 /* ACDemoMasterViewController.m */,
-				FACAA1FE16601DD2000B47F2 /* ACDemoDetailViewController.h */,
-				FACAA1FF16601DD2000B47F2 /* ACDemoDetailViewController.m */,
-				FACAA20116601DD2000B47F2 /* ACDemoMasterViewController.xib */,
-				FACAA20416601DD2000B47F2 /* ACDemoDetailViewController.xib */,
+				FACAA20116601DD2000B47F2 /* ACDemoMasterView.xib */,
+				FA4D58901660216700E2A79D /* UIImage+ACResizableImage */,
 				FACAA1EA16601DD2000B47F2 /* Supporting Files */,
 			);
 			path = ACCategoriesDemo;
@@ -166,6 +184,23 @@
 				FACAA21616601DD2000B47F2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FACAA22416601DEA000B47F2 /* ACCategories */ = {
+			isa = PBXGroup;
+			children = (
+				FACAA22816601E05000B47F2 /* UIImage */,
+			);
+			name = ACCategories;
+			sourceTree = "<group>";
+		};
+		FACAA22816601E05000B47F2 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				FACAA22516601DFF000B47F2 /* UIImage+ACResizableImage.h */,
+				FACAA22616601DFF000B47F2 /* UIImage+ACResizableImage.m */,
+			);
+			name = UIImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,8 +279,10 @@
 				FACAA1F616601DD2000B47F2 /* Default.png in Resources */,
 				FACAA1F816601DD2000B47F2 /* Default@2x.png in Resources */,
 				FACAA1FA16601DD2000B47F2 /* Default-568h@2x.png in Resources */,
-				FACAA20316601DD2000B47F2 /* ACDemoMasterViewController.xib in Resources */,
-				FACAA20616601DD2000B47F2 /* ACDemoDetailViewController.xib in Resources */,
+				FACAA20316601DD2000B47F2 /* ACDemoMasterView.xib in Resources */,
+				FA4D588B16601FC400E2A79D /* ACDemoResizableImageViewController.xib in Resources */,
+				FA4D588E1660216300E2A79D /* resizable_image.png in Resources */,
+				FA4D588F1660216300E2A79D /* resizable_image@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +320,8 @@
 				FACAA1F016601DD2000B47F2 /* main.m in Sources */,
 				FACAA1F416601DD2000B47F2 /* ACDemoAppDelegate.m in Sources */,
 				FACAA1FD16601DD2000B47F2 /* ACDemoMasterViewController.m in Sources */,
-				FACAA20016601DD2000B47F2 /* ACDemoDetailViewController.m in Sources */,
+				FACAA22716601DFF000B47F2 /* UIImage+ACResizableImage.m in Sources */,
+				FA4D588A16601FC400E2A79D /* ACDemoResizableImageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,20 +352,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		FACAA20116601DD2000B47F2 /* ACDemoMasterViewController.xib */ = {
+		FACAA20116601DD2000B47F2 /* ACDemoMasterView.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				FACAA20216601DD2000B47F2 /* en */,
 			);
-			name = ACDemoMasterViewController.xib;
-			sourceTree = "<group>";
-		};
-		FACAA20416601DD2000B47F2 /* ACDemoDetailViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FACAA20516601DD2000B47F2 /* en */,
-			);
-			name = ACDemoDetailViewController.xib;
+			name = ACDemoMasterView.xib;
 			sourceTree = "<group>";
 		};
 		FACAA21616601DD2000B47F2 /* InfoPlist.strings */ = {
@@ -466,6 +496,7 @@
 				FACAA22016601DD2000B47F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FACAA22116601DD2000B47F2 /* Build configuration list for PBXNativeTarget "ACCategoriesDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +505,7 @@
 				FACAA22316601DD2000B47F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
